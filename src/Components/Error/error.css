@@ -1,0 +1,16 @@
+.error {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  color: white;
+  background-color: black;
+  width: 30vw;
+  padding: 20px;
+  height: 5vh;
+  margin-bottom: 20px;
+}
+
+.all_small {
+  cursor: pointer;
+}
