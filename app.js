@@ -22,7 +22,7 @@ const port = process.env.PORT || 5000;
 // In conculsion I want to say that this might lack my 100% as
 // this was a test project but I really encoruge you to see my finished production
 // code when we work together.
-// thanks
+// Thanks
 
 mongo.connect(
   "mongodb+srv://silverpoision:Silver@1671@cluster0.uuwon.mongodb.net/user?retryWrites=true&w=majority",
