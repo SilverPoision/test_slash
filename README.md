@@ -2,12 +2,12 @@
 
 You can find this app hosted here:
 
-https://mighty-depths-78407.herokuapp.com/
+https://secret-hamlet-64689.herokuapp.com/
 
 
 I have exposed an endpoind for signup here:
 
-https://mighty-depths-78407.herokuapp.com/api/user/signup
+https://secret-hamlet-64689.herokuapp.com/api/user/signup
 
 So if you want to signup then send a request with body with json like this.
 
