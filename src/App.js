@@ -24,7 +24,7 @@ function App(props) {
       if (token) {
         try {
           const sign = await fetch(
-            "https://mighty-depths-78407.herokuapp.com/api/user/check",
+            "https://secret-hamlet-64689.herokuapp.com/api/user/check",
             {
               method: "GET",
               headers: {
@@ -74,7 +74,7 @@ function App(props) {
   const signin = async (data) => {
     try {
       var sign = await fetch(
-        "https://mighty-depths-78407.herokuapp.com/api/user/login",
+        "https://secret-hamlet-64689.herokuapp.com/api/user/login",
         {
           method: "POST",
           headers: {
@@ -122,7 +122,7 @@ function App(props) {
 
   const logout = async () => {
     const log = await fetch(
-      "https://mighty-depths-78407.herokuapp.com//api/user/logout",
+      "https://secret-hamlet-64689.herokuapp.com/api/user/logout",
       {
         method: "GET",
         headers: {
